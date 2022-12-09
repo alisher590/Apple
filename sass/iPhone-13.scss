@@ -1,0 +1,48 @@
+.iphone13{
+    max-width: 1728px;
+    min-height: 716px;
+    background: #FAFAFD;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+&.image-13-pro {
+    min-height: 477px;
+    max-width: 1728px;
+    background-image: url(../img/iPhone\ 13\ Pro\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+&.so{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: 'SF Pro';
+    size: 28px;
+    line-height: 44px;
+}
+&.zagolovok{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   font-weight: 700;
+   font-family: 'SF Pro';
+   size: 56px;
+   line-height: 44px;
+}
+&.learn{
+    display: flex;
+    align-items: center;
+    color: #0066CC;
+    gap: 20px;
+    justify-content: center;
+    font-weight: 400;
+    font-family: 'SF Pro';
+    size: 21px;
+    line-height: 44px;
+}
+}
+}

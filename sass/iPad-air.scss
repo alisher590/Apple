@@ -1,0 +1,46 @@
+.iPad-air{
+    max-width: 1728px;
+    min-height: 732px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+&.block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+&.light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'SF Pro';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 44px;
+    color: #E5E5E5;
+
+}
+&.air-block{
+    color: #E5E5E5;
+    font-family: 'SF Pro';
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 44px;
+}
+&.air-block-left .more{
+    color: #2997FF;
+    font-family: 'SF Pro';
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 44px;
+&.air-block-left .buy{
+    color: #2997FF;
+    font-family: 'SF Pro';
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 44px;
+}
+}
+}

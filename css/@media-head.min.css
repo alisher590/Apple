@@ -1,0 +1,220 @@
+@media (max-width: 991px) {
+  .acsesuars {
+    max-width: 990px;
+    min-height: 2000px;
+    background-color: white;
+  }
+  .acsesuars.grid-acsesur {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 610px;
+    gap: 30px;
+  }
+  .iPad-air {
+    max-width: 990px;
+    min-height: 732px;
+  }
+  .iPad-air.air-block-right img {
+    max-width: 420px;
+    min-height: 510px;
+  }
+  .iPhone-SE {
+    max-width: 990px;
+    min-height: 428px;
+    background-color: #FAFAFD;
+  }
+  .iPhone-SE .image-iphone-se {
+    min-height: 287px;
+    max-width: 990px;
+  }
+  .iPhone-SE .image-iphone-se.lower {
+    font-weight: 400;
+    font-family: "SF Pro";
+    font-size: 22px;
+    line-height: 44px;
+  }
+  .iphone13 {
+    max-width: 1728px;
+    min-height: 416px;
+    background: #FAFAFD;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .iphone13 .image-13-pro {
+    max-width: 990px;
+    min-height: 377px;
+  }
+  .iphone13 .image-13-pro.learn {
+    line-height: 24px;
+  }
+  .iphone13 .image-13-pro.zagolovok {
+    line-height: 24px;
+  }
+  .iphone13 .image-13-pro.so {
+    line-height: 24px;
+  }
+  .iphone13 .unisef a {
+    font-size: 18px;
+  }
+  .iphone13 .header {
+    max-width: 990px;
+    min-height: 44px;
+  }
+  .iphone13 .header.menu-bar {
+    gap: 17px;
+  }
+  .iphone13 .header .header a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .acsesuars {
+    max-width: 990px;
+    min-height: 2000px;
+    background-color: white;
+  }
+  .acsesuars.grid-acsesur {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 610px;
+    gap: 30px;
+  }
+  .acsesuars.grid-acsesur.image-disp img {
+    max-width: 400px;
+    min-height: 200px;
+  }
+  .image-13-pro {
+    max-width: 766px;
+    min-height: 277px;
+  }
+  .unisef a {
+    font-size: 15px;
+  }
+  .header {
+    max-width: 766px;
+    min-height: 44px;
+  }
+  .header.menu-bar {
+    gap: 17px;
+  }
+  .header .header a {
+    font-size: 7px;
+  }
+}
+@media (max-width: 530px) {
+  .acsesuars {
+    max-width: 530px;
+    min-height: 2000px;
+    background-color: white;
+  }
+  .acsesuars.grid-acsesur {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 410px;
+    gap: 30px;
+  }
+  .acsesuars.grid-acsesur.image-disp img {
+    max-width: 250px;
+    min-height: 200px;
+  }
+  .image-13-pro {
+    max-width: 766px;
+    min-height: 277px;
+  }
+  .unisef a {
+    font-size: 9px;
+  }
+  .header {
+    max-width: 530px;
+    min-height: 44px;
+  }
+  .header .menu-bar {
+    gap: 87px;
+  }
+  .header .menu-bar .header a {
+    font-size: 7px;
+  }
+  .header .menu-bar.Store {
+    display: none;
+  }
+  .header .menu-bar.Mac {
+    display: none;
+  }
+  .header .menu-bar.iPad {
+    display: none;
+  }
+  .header .menu-bar.iPhone {
+    display: none;
+  }
+  .header .menu-bar.Watch {
+    display: none;
+  }
+  .header .menu-bar.TV-Home {
+    display: none;
+  }
+  .header .menu-bar.AirPods {
+    display: none;
+  }
+  .header .menu-bar.Only-on-Apple {
+    display: none;
+  }
+  .header .menu-bar.Accessories {
+    display: none;
+  }
+  .header .menu-bar.Support {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .image-13-pro {
+    max-width: 766px;
+    min-height: 277px;
+  }
+  .unisef a {
+    font-size: 6px;
+  }
+  .header {
+    max-width: 320px;
+    min-height: 44px;
+  }
+  .header.menu-bar {
+    gap: 87px;
+  }
+  .header.menu-bar .header a {
+    font-size: 7px;
+  }
+  .header.menu-bar.Store {
+    display: none;
+  }
+  .header.menu-bar.Mac {
+    display: none;
+  }
+  .header.menu-bar.iPad {
+    display: none;
+  }
+  .header.menu-bar.iPhone {
+    display: none;
+  }
+  .header.menu-bar.Watch {
+    display: none;
+  }
+  .header.menu-bar.TV-Home {
+    display: none;
+  }
+  .header.menu-bar.AirPods {
+    display: none;
+  }
+  .header.menu-bar.Only-on-Apple {
+    display: none;
+  }
+  .header.menu-bar.Accessories {
+    display: none;
+  }
+  .header.menu-bar.Support {
+    display: none;
+  }
+}

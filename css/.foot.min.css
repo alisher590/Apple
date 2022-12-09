@@ -1,0 +1,31 @@
+.foot {
+  max-width: 1728px;
+  min-height: 720px;
+  background-color: #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot.final {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.foot.final.text-foot {
+  color: #6E6E73;
+}
+.foot.final.story a {
+  color: #424245;
+  font-family: "SF Pro";
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.foot.final.story:nth-child(12) {
+  margin-top: 20px;
+}
+.foot.final .final-store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

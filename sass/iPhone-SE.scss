@@ -1,0 +1,50 @@
+.iPhone-SE{
+    max-width: 1728px;
+    min-height: 728px;
+    background-color: #FAFAFD;
+    &.se{
+        border: 2px solid black;
+        max-width: 44px;
+        min-height: 44px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+&.new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'SF Pro';
+    font-size: 21px;
+    line-height: 44px;
+}
+&.iPhon-se{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+&.p-se{
+    font-weight: 600;
+    font-family: 'SF Pro';
+    font-size: 56px;
+    line-height: 44px;
+}
+&.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: 'SF Pro';
+    font-size: 28px;
+    line-height: 44px;
+}
+&.image-iphone-se{
+    min-height: 357px;
+    max-width: 1728px;
+    background-image: url(../img/iPhone\ SE\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}

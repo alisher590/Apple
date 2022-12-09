@@ -1,0 +1,243 @@
+@media (max-width:991px) {
+    .acsesuars{
+        max-width: 990px;
+        min-height: 2000px;
+        background-color: white;
+      
+    
+    &.grid-acsesur{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 610px;
+        gap: 30px;
+       }
+    }
+    .iPad-air{
+        max-width: 990px;
+        min-height: 732px; 
+    &.air-block-right img{
+        max-width: 420px;
+        min-height: 510px;
+    }
+}
+.iPhone-SE{
+    max-width: 990px;
+    min-height: 428px;
+    background-color: #FAFAFD;
+
+    .image-iphone-se{
+        min-height: 287px;
+        max-width: 990px;
+      &.lower{
+        font-weight: 400;
+        font-family: 'SF Pro';
+        font-size: 22px;
+        line-height: 44px;
+    }
+}
+}
+.iphone13{
+    max-width: 1728px;
+    min-height: 416px;
+    background: #FAFAFD;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .image-13-pro{
+        max-width: 990px;
+        min-height: 377px;
+
+        &.learn{
+            line-height: 24px;
+        }
+        &.zagolovok{
+            line-height: 24px;
+        }
+        &.so{
+            line-height: 24px;
+        }
+    }
+    .unisef a{
+        font-size: 18px;
+    }
+    .header{
+        max-width: 990px;
+        min-height: 44px;
+    
+    &.menu-bar{
+        gap: 17px;
+    }
+    .header a{
+        font-size: 10px;
+    }
+}
+}
+    
+}
+@media (max-width:767px) {
+    .acsesuars{
+        max-width: 990px;
+        min-height: 2000px;
+        background-color: white;
+      
+    
+    &.grid-acsesur{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 610px;
+        gap: 30px;
+       
+       &.image-disp img{
+        max-width: 400px;
+        min-height: 200px;
+       }
+    }
+    }
+    .image-13-pro{
+        max-width: 766px;
+        min-height: 277px;
+    }
+    .unisef a{
+        font-size: 15px;
+    }
+    .header{
+        max-width: 766px;
+        min-height: 44px;
+    
+    &.menu-bar{
+        gap: 17px;
+    }
+    .header a{
+        font-size: 7px;
+    }
+}
+    
+}
+
+@media (max-width:530px) {
+    .acsesuars{
+        max-width: 530px;
+        min-height: 2000px;
+        background-color: white;
+      
+    
+    &.grid-acsesur{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 410px;
+        gap: 30px;
+       
+       &.image-disp img{
+        max-width: 250px;
+        min-height: 200px;
+       }
+    }
+    }
+    .image-13-pro{
+        max-width: 766px;
+        min-height: 277px;
+    }
+    .unisef a{
+        font-size: 9px;
+    }
+    .header{
+        max-width: 530px;
+        min-height: 44px;
+    
+    .menu-bar{
+        gap: 87px;
+      
+    
+    .header a{
+        font-size: 7px;
+    }
+    &.Store{
+        display: none;
+    }
+    
+    &.Mac{
+        display: none;
+    }
+    &.iPad{
+        display: none;
+    }
+    &.iPhone{
+        display: none;
+    }
+    &.Watch{
+        display: none;
+    }
+    &.TV-Home{
+        display: none;
+    }
+    &.AirPods{
+        display: none;
+    }
+    &.Only-on-Apple{
+        display: none;
+    }
+    &.Accessories{
+        display: none;
+    }
+    &.Support{
+        display: none;
+    }  
+}
+}
+}
+@media (max-width:320px) {
+    .image-13-pro{
+        max-width: 766px;
+        min-height: 277px;
+    }
+    .unisef a{
+        font-size: 6px;
+    }
+    .header{
+        max-width: 320px;
+        min-height: 44px;
+    
+    &.menu-bar{
+        gap: 87px;
+    
+    .header a{
+        font-size: 7px;
+    }
+    &.Store{
+        display: none;
+    }
+    
+    &.Mac{
+        display: none;
+    }
+    &.iPad{
+        display: none;
+    }
+    &.iPhone{
+        display: none;
+    }
+    &.Watch{
+        display: none;
+    }
+    &.TV-Home{
+        display: none;
+    }
+    &.AirPods{
+        display: none;
+    }
+    &.Only-on-Apple{
+        display: none;
+    }
+    &.Accessories{
+        display: none;
+    }
+    &.Support{
+        display: none;
+    } 
+}
+} 
+}

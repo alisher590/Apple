@@ -1,0 +1,24 @@
+.unisef{
+    max-width: 1728px;
+    min-height: 100px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+.unisef a{
+    color: #0066CC;
+    font-family: 'SF Pro';
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 44px;
+    font-weight: 400;   
+}
+&.unier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+}

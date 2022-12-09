@@ -1,0 +1,32 @@
+
+.container{
+    max-width: 1728px;
+    min-height: 44px;
+    margin: 0 auto;
+
+.header{
+    max-width: 1728px;
+    min-height: 44px;
+    background: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    a{
+        text-decoration: none;
+        color: #F5F5F7;
+        font-family: 'SF Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 44px;
+    }
+}
+&.menu-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+}
